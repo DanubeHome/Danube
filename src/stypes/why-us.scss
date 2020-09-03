@@ -1,0 +1,15 @@
+.why-us-page{
+  .section-heading{
+    &~p{
+      margin-bottom: 1rem;
+    }
+  }
+  .why-section{
+    .section-heading{
+      display: none;
+    }
+    .btn-theme{
+      display: none;
+    }
+  }
+}

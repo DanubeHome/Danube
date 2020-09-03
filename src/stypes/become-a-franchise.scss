@@ -1,0 +1,149 @@
+.franchise-concept-page, .franchise-concept-heading-section {
+  .franchise-concept-heading-section {
+    padding: 2rem 0;
+  }
+
+  .tab-header-component {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-height: 60px;
+
+    .tab {
+      padding: 15px;
+      border-bottom: 2px solid white;
+      color: #444444;
+      font-weight: 500;
+      cursor: pointer;
+
+      &.active {
+        color: $primary;
+        border-bottom: 2px solid $primary;
+        animation: activeIn 0.5s;
+        opacity: 1;
+        font-size: 16px;
+
+      }
+
+      &.inactive {
+        color: #444444;
+        opacity: 0.7;
+        font-size: 14px;
+        border-bottom: 2px solid white;
+        animation: activeOut 0.5s;
+
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .franchise-concept-heading-section {
+      padding: 3rem 0;
+      background-color: #fff;
+    }
+    .franchise-feature-banner {
+
+    }
+  }
+}
+
+.become-a-franchise-page {
+  .why-section {
+    .section-heading {
+      color: $primary;
+      font-weight: 400;
+      line-height: 1;
+    }
+  }
+}
+
+.custom-tabs-animated {
+  display: none !important;
+  position: relative;
+
+  .tab-data {
+    border-top: 1px solid #e9eaea;
+    padding: 25px;
+  }
+
+  &.active {
+    display: initial !important;
+
+    .tab-data {
+      animation: activeInSlide 0.5s;
+    }
+  }
+}
+.animated-tab-box {
+  cursor: pointer;
+  &.active {
+    animation: hoverIn 0.5;
+  }
+  &.inactive {
+    animation: hoverOut 0.5;
+  }
+}
+@keyframes activeInSlide {
+  0% {
+    //color: white;
+    opacity: 0.3;
+    margin-top: 30px;
+  }
+  100% {
+
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes hoverIn {
+  0% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hoverOut {
+
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+@keyframes activeIn {
+  0% {
+    //color: white;
+    opacity: 0.7;
+    font-size: 14px;
+
+    border-bottom: 2px solid white;
+  }
+  100% {
+    //color: $primary;
+    opacity: 1;
+    font-size: 16px;
+
+    border-bottom: 2px solid $primary;
+  }
+}
+
+@keyframes activeOut {
+
+  0% {
+    //color: $primary;
+    opacity: 1;
+    font-size: 16px;
+    border-bottom: 2px solid $primary;
+  }
+  100% {
+    //color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    border-bottom: 2px solid white;
+  }
+}

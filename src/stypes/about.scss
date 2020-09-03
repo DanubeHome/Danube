@@ -1,0 +1,102 @@
+.about-page{
+  .about-content-heading, .statements-heading{
+    color: $dark;
+    font-size: 18px;
+  }
+  .about-content-heading~p, .statements-heading~p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+
+
+  .counter{
+    .heading-container{
+      text-align: center;
+      margin-bottom: 35px;
+      .heading{
+        font-size: 24px;
+        font-weight: 400;
+        color: $primary;
+        text-transform: uppercase;
+      }
+      .heading+p{
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+      }
+    }
+    .counter-box{
+      //padding: 0 28px;
+      .counter-icon{
+        max-height: 45px;
+      }
+      .counter-heading{
+        font-size: 36px;
+          color: $primary;
+          font-weight: 300;
+          line-height: 1;
+        }
+      .counter-heading+span{
+        font-size: 13px;
+        font-weight: 300;
+        color: #fff;
+      }
+    }
+  }
+
+  .statements-section{
+    padding-top: 3rem;
+
+    .statements-heading{
+      background: rgb(204, 30, 30);
+      color: white;
+      text-align: left;
+      padding: 5px 12px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .awards-section{
+    padding: 3rem 0;
+  }
+
+
+
+
+//  responsive
+  @media screen and (max-width: 767.98px){
+    .counter{
+      .counter-box{
+        padding: 0;
+        text-align: center;
+        .counter-heading{
+          font-size: 54px;
+        }
+      }
+    }
+
+    .portfolio-section {
+      .portfolio-box {
+        .portfolio-box-info {
+          .title {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 575.98px){
+    .counter{
+      .counter-box{
+        .counter-heading{
+          font-size: 44px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+.portfolio-page{
+  padding: 50px 0px;
+  .portfolio-heading{
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #182331;
+    margin-bottom: 15px;
+    &~p{
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .center-icon{
+    i{
+      transition: all 0.3s;
+    }
+    i:hover {
+      color: #646A7C;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.custom-form-control{
+  background-color: #f4f6f8;
+  color: #2b2e2f;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 8.5px 20px;
+  border: 1px solid #f4f6f8;
+  outline: none;
+  transition: 300ms ease-in-out;
+  margin-bottom: 30px;
+}
+.custom-form-control:focus{
+border-color: $primary;
+}

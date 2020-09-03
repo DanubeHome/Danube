@@ -1,0 +1,50 @@
+.become-a-seller-page{
+  .become-a-seller-info-section{
+    padding-bottom: 3rem !important;
+  }
+
+  .seller-key-benefits-section{
+    padding-top: 3rem !important;
+
+    .img-background{
+      background-color: #efefef;
+      position: absolute;
+      z-index: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30%;
+    }
+  }
+  .become-a-seller-features-section{
+    .container.bg-theme{
+      background-color: $primary;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+    .feature-inner-heading{
+      background-color: #ffffff;
+      color: $primary;
+      text-align: center;
+      font-size: 34px;
+      font-weight: 500;
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    .feature-list{
+      p{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.6;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .become-a-seller-steps-section{
+    padding-top: 3rem!important;
+    padding-bottom: 5rem!important;
+  }
+}

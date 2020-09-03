@@ -1,0 +1,51 @@
+.VideoGallerySlider{
+  background-color: #fff;
+  margin-bottom: 30px;
+  .slick-prev, .slick-next{
+    z-index: 1;
+    width: initial;
+    height: initial;
+  }
+  .slick-prev:before, .slick-next:before{
+    font-size: 35px;
+    opacity: 1;
+    color: #CC1E1E;
+  }
+  .slick-prev{
+    left: -40px;
+  }
+  .slick-next{
+    right: -40px;
+  }
+  iframe{
+    height: 433px;
+  }
+  @media screen and (max-width: 1407.98px){
+    iframe{
+      height: 325px;
+    }
+  }
+  @media screen and (max-width: 1215.98px){
+    iframe{
+      height: 217px;
+    }
+  }
+  @media screen and (max-width: 991.98px){
+    iframe{
+      height: 262px;
+    }
+  }
+  @media screen and (max-width: 767.98px){
+    .slick-list{
+      padding: 0!important;
+    }
+    iframe{
+      height: 274px;
+    }
+  }
+  @media screen and (max-width: 575.98px){
+    iframe{
+      height: 230px;
+    }
+  }
+}

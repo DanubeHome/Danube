@@ -1,0 +1,24 @@
+.success-story-page{
+  .success-cards-section{
+    padding-bottom: 3rem;
+    .success-story-box{
+      margin-bottom: 1.7rem;
+      .success-story-box-info{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background: $primary;
+        opacity: 0.9;
+        padding: 0.5rem 1rem;
+        color: #fff;
+        font-size: 21px;
+        font-weight: 300;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+}

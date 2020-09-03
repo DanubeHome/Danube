@@ -1,0 +1,899 @@
+@import "~bulma/sass/utilities/initial-variables"
+@import "../stypes/bootstrap.min.css"
+@import "../stypes/index"
+@import "../stypes/home"
+@import "../stypes/about"
+@import "../stypes/success-story"
+@import "../stypes/why-us"
+@import "../stypes/our-journey"
+@import "../stypes/get-partnership-process"
+@import "../stypes/become-a-seller"
+@import "../stypes/become-a-franchise"
+@import "../stypes/contact"
+@import "../stypes/portfolio"
+@import "../stypes/popup"
+@import "../stypes/animations"
+@import "../stypes/whatsapp-popup"
+
+
+// Config vars
+
+$home-red: #CC1E1E
+$home-gray: #646A7C
+$home-dark: #232530
+$kaldi-red-invert: #fff
+
+$primary: $home-red
+$secondary: $home-gray
+$dark: $home-dark
+$primary-invert: $kaldi-red-invert
+$body-color: #333
+$black: #2b2523
+
+$font-kit: 'Poppins', sans-serif
+
+.Success-popup-wrapper
+  left: 0px
+  position: fixed
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  width: 100%
+  pointer-events: none
+  bottom: 0px
+  z-index: 100
+  .popup-content
+    transition: opacity 250ms ease 0s
+    opacity: 1
+    .popup-body
+      background-color: rgb(21, 21, 21)
+      color: white
+      padding: 10px
+      text-transform: uppercase
+      border-radius: 3px
+      display: flex
+      justify-content: space-between
+      align-items: center
+      box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 2px 2px
+      font-family: Arial
+      //width: 300px
+      box-sizing: border-box
+      margin: 10px
+      pointer-events: all
+      .popup-close-btn
+        margin-left: 20px
+        border: none
+        background-color: transparent
+        cursor: pointer
+        color: rgb(255, 255, 255)
+
+
+.breadcrumb-item+.breadcrumb-item::before
+  content: '>'
+.breadcrumb-wrapper
+  .breadcrumb
+    font-size: 14px
+    background: transparent
+    padding: 25px 0px
+
+    .breadcrumb-item
+      &.active
+        color: $primary
+    a
+      color: $secondary
+      padding: 0px
+      &:hover
+        text-decoration: none
+        color: $primary
+
+body
+  font-family: $font-kit !important
+  color: $secondary !important
+
+
+.overlay
+  position: absolute
+  background-color: transparent
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 0
+  transition: all 0.6s
+  -webkit-transition: all 0.6s
+  -moz-transition: all 0.6s
+  -o-transition: all 0.6s
+  -ms-transition: all 0.6s
+
+.section-heading
+  font-size: 36px
+  color: #182331
+  font-weight: 600
+  text-transform: capitalize
+  color: #182331
+
+  & ~ p
+    font-size: 14px
+    font-weight: 300
+
+@media screen and (max-width: 767.98px)
+  .section-heading
+    font-size: 28px
+
+.section-heading.text-theme
+  font-weight: 400
+  line-height: 1
+
+.bg-heading
+  background-color: $primary
+  color: #ffffff
+  font-size: 28px
+  font-weight: 400
+  padding: 10px
+  margin-bottom: 15px
+
+.accordion-box
+  margin-bottom: 30px
+
+  .accordion-header
+    .accordion-icon
+      background-color: $primary
+      color: #ffffff
+      width: 30px
+      height: 30px
+      line-height: 30px
+      text-align: center
+
+    .accordion-heading
+      font-size: 16px
+      font-weight: 500
+      color: #182331
+      padding-left: 20px
+
+  .accordion-body
+    p
+      font-size: 14px
+      font-weight: 300
+
+.tab-to-accordion-box
+  margin: 10px 0px
+
+  .accordion-header
+    background: $primary
+    text-align: center
+    color: #ffffff
+    font-weight: 500
+    text-transform: uppercase
+    padding: 9px 0px
+
+.mobile-navbar-active-mask
+  background: rgba(0, 0, 0, 0.8)
+  width: 100vw
+  height: 100vh
+  position: fixed
+  display: block
+  opacity: 0
+  visibility: hidden
+  z-index: 1019
+  transition: all 300ms
+
+  &.active
+    opacity: 1
+    visibility: visible
+
+.mobile-navbar-accordion-container
+  padding: 10px 0
+  height: calc(100% - 18px)
+  overflow-y: scroll
+
+  .mobile-navbar-accordion-box
+    border-bottom: 1px solid #e9eaea
+
+    &:last-child
+      border-bottom: none
+
+    .accordion-header
+      display: flex
+      align-items: center
+      justify-content: space-between
+      padding: 10px 0
+      text-transform: uppercase
+      font-weight: 500
+      font-size: 11.2px
+      color: #182331
+
+      .accordion-icon
+        width: 30px
+        height: 30px
+        margin-top: -10px
+        margin-bottom: -10px
+        line-height: 30px
+        text-align: center
+        cursor: pointer
+        font-size: 16px
+        color: $secondary
+
+
+.page-header
+  .site-branding
+    width: 35%
+    padding-top: 15px
+    padding-bottom: 15px
+
+  .main-header-widget
+    width: 65%
+
+@media screen and (max-width: 991.98px)
+  .page-header
+    .site-branding
+      width: 70%
+
+.navbar .navbar-menu
+  box-shadow: none !important
+
+.site-navbar
+  background-color: $primary !important
+
+  .nav-link
+    font-size: 14px
+    padding: 10px 25px !important
+    color: #ffffff !important
+
+  .dropdown-menu
+    opacity: 0
+    visibility: hidden
+    transition: all 0.3s ease-in
+
+    &.show
+      opacity: 1
+      visibility: visible
+
+  .dropdown-item
+    cursor: pointer
+
+    &:not(:last-child)
+      border-bottom: 1px solid #e9eaea
+
+    &:hover
+      background-color: $white
+      color: $primary
+
+.mobile-nav
+  height: 100vh
+  position: fixed
+  display: block
+  width: 100%
+  max-width: 320px
+  top: 0
+  left: -320px
+  background: #fff
+  z-index: 1020
+  padding: 15px
+  transition: all 500ms
+
+  &.active
+    left: 0px
+
+  a, span.link-type
+    display: block
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 11.2px
+    color: #182331
+
+  .menu-item
+    a, span.link-type
+      padding: 10px 0
+
+  .accordion-body
+    .mobile-nav-sub-menu
+      .menu-item
+        position: relative
+        padding: 0
+        border-top: 1px solid #e9eaea
+        line-height: 1.6
+
+.content .taglist
+  list-style: none
+  margin: 1.5rem 1.5rem 0 0
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+// Helper Classes
+.full-width-image-container
+  width: 100vw
+  height: 400px
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 2em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+.full-width-image
+  width: 100vw
+  height: 400px
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+.btn
+  display: inline-block
+  padding: 12px 16px 10px
+  font-size: 18px
+  font-size: 1rem
+  line-height: 1.25
+  background-color: #fff
+  border-radius: .25rem
+  text-decoration: none
+  font-weight: 700
+  color: #CC3700
+  text-align: center
+  -webkit-box-shadow: inset 0 0 0 2px #CC3700
+  box-shadow: inset 0 0 0 2px #f40
+  -webkit-transition: all .15s ease
+  transition: all .15s ease
+
+.margin-top-0
+  margin-top: 0 !important
+
+.navbar-item .icon
+  color: $primary
+// Override for use of svg's from https://simpleicons.org/
+.icon svg
+  width: 1.5rem
+  height: 1.5rem
+  fill: currentColor
+
+.navbar-brand .navbar-item.logo
+  padding: 0 1rem
+
+//Menu overrides
+$menu-item-color: $white-ter
+$menu-item-hover-color: $black !important
+$menu-item-hover-background-color: $black
+$menu-item-active-color: $kaldi-red-invert
+$menu-item-active-background-color: $kaldi-red-invert
+$menu-list-border-left: 1px solid $kaldi-red-invert
+$menu-label-color: $white-ter
+
+
+.menu-label
+  font-size: 1em !important
+  text-align: left
+
+.menu-list
+  list-style: none !important
+  text-align: left
+
+.social
+  padding: 2em
+
+.social a
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: $white-ter
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline
+
+// blog roll
+.blog-list-item.is-featured
+  background-color: #d6400033
+
+.blog-list-item header
+
+  display: flex
+  margin-bottom: 1em
+
+.blog-list-item .featured-thumbnail
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
+
+.text-theme-secondary
+  color: $secondary
+
+
+.text-theme
+  color: $primary
+
+.font-theme-1
+  font-family: $font-kit
+
+.bg-theme
+  background-color: $primary
+
+.btn-theme
+  background-color: $primary
+  color: #ffffff
+  padding: 8.5px 30px
+  border: none
+  font-weight: 500
+  letter-spacing: 2px
+  border-radius: 40px
+  //line-height: 40px
+  text-transform: uppercase
+  transition: all 300ms
+  cursor: pointer
+  display: inline-block
+
+.btn-theme:hover
+  text-decoration: none
+  background-color: $dark
+  color: #ffffff
+
+.btn-theme-no-height
+  background-color: $primary
+  color: #ffffff
+  padding: 14px 14px
+  border: none
+  font-size: 14px
+  font-weight: 300
+  letter-spacing: 2px
+  border-radius: 40px
+  transition: all 300ms
+  display: inline-block
+  cursor: pointer
+
+.btn-theme-no-height:hover
+  text-decoration: none
+  background-color: $dark
+  color: #ffffff
+
+// info cards
+.info-card
+  opacity: 0
+.info-box
+  img
+    transition: all 2s
+    -webkit-transition: all 2s
+    -moz-transition: all 2s
+    -o-transition: all 2s
+    -ms-transition: all 2s
+
+.info-box:hover
+  img
+    transform: scale(1.15)
+
+.info-card-title
+  text-align: center
+  top: 50%
+  transform: translate(0, -50%)
+  position: absolute
+  z-index: 2
+  width: 100%
+  padding: 20px
+  background: none
+  font-size: 16px
+  font-weight: bold
+
+.info-card-content
+  margin-top: 20px
+  margin-bottom: 20px
+
+  p
+    font-size: 15px
+    font-weight: 300
+
+// about section
+@media screen and (max-width: 767.98px)
+  .about-box-column
+    margin-bottom: 75px
+.about-box-wrapper
+  height: 100%
+
+.about-box
+  box-shadow: 1px 8px 19px #dedede
+  height: 100%
+  border-radius: 4px
+  background-color: white
+  opacity: 0
+  padding-top: 50px !important
+
+  .about-box-icon
+    position: absolute
+    left: 50%
+    top: 0%
+    transform: translate(-50%, -50%)
+    padding: 15px
+    background: #fff
+    border-radius: 50%
+
+  .about-box-title
+    text-transform: uppercase
+    color: $dark
+    font-size: 18px
+    margin-bottom: 15px
+    text-align: center
+
+  .description
+    font-size: 14px
+    font-weight: 300
+    text-align: center
+
+// why section
+.why-section
+  .why-card-wrapper
+    opacity: 0
+  .why-card:hover
+    background-color: $primary
+    color: #ffffff
+
+    .fa
+      color: #ffffff
+
+  .why-card
+    width: 100%
+    cursor: default
+    padding: 15px 40px
+    transition: all 300ms
+    width: 100%
+
+    .fa
+      font-size: 30px
+
+    .why-card-title
+      font-size: 18px
+      margin-left: 20px
+
+@media screen and (max-width: 767.98px)
+  .why-section
+    .why-card
+      padding: 15px
+
+      .why-card-title
+        font-size: 16px
+
+
+// footer
+footer
+  .social-icon-link
+    width: 35px
+    height: 35px
+    border-radius: 50%
+    display: block
+    text-align: center
+    font-size: 20px
+    line-height: 35px
+    background: #cc1e1e
+    color: #fff
+
+  .copyright
+    padding-top: 10px
+    color: #5c6774
+    font-size: 14px
+    font-weight: 300
+
+  .footer-widget-title
+    font-size: 24px
+    font-weight: 400
+
+  .quick-links-list
+    font-size: 14px
+
+    a
+      color: $secondary
+      text-decoration: none
+
+    a:hover
+      color: $primary
+
+  .footer-widget-content
+    color: $secondary
+    font-size: 14px
+
+    .phone
+      color: #ffffff
+      font-weight: 700
+      text-decoration: none
+
+    .mail
+      color: $secondary
+      text-decoration: none
+
+  .newsletter-btn
+    border-color: $primary
+    background-color: $primary
+    box-shadow: none
+    color: #ffffff
+
+
+  .newsletter-btn:hover
+    background-color: $dark
+    border-color: $dark
+
+// video gallery
+
+.video-gallery-section
+  .horiontal-scroll-container
+    align-items: center
+    display: flex
+
+    .horizontal-swiper
+      width: 100%
+      overflow-x: auto
+      display: flex
+
+      ::-webkit-scrollbar
+        display: none
+
+      .swipe-cards
+        margin-right: 20px
+        min-width: 500px
+        @media screen and (max-width: 767.98px)
+          min-width: 100%
+  .gallery-box
+    margin-bottom: 35px
+
+    iframe
+      height: 200px
+
+// tabs
+
+.franchise-option-tabs
+  margin-top: 35px
+
+  .tabs-menu
+    background-color: #f4f6f8
+    border-color: #f4f6f8
+
+    .nav-link
+      background: none
+      border: none
+      border-left: 1px solid #fff
+      font-size: 14px
+      font-weight: 500
+      text-transform: uppercase
+      letter-spacing: 1px
+      color: #182331
+      padding: 17.5px 20px
+      transition: all 300ms
+      border-radius: 0
+      outline: none
+
+    .nav-link:hover, .nav-link.active
+      background-color: $primary
+      color: #ffffff
+
+.tab-data
+  background: none
+  border: 1px solid #e9eaea
+  border-top: none
+  padding: 25px 30px
+  padding: 5px 15px
+
+  .section-heading
+    margin-top: 0px
+    margin-bottom: 32px
+
+  .list-content
+    font-size: 14px
+    font-weight: 300
+    line-height: 1.6
+    color: $secondary
+    margin-bottom: 15px
+
+    &.strong
+      font-weight: 700
+
+  .tab-box
+    padding-top: 15px
+
+    img
+      max-height: 50px
+
+    .tab-box-title
+      color: $primary
+      font-size: 20px
+      font-weight: 500
+      line-height: 1.2
+      margin-bottom: 10px
+      margin-top: 10px
+
+    .tab-box-content
+      p
+        font-size: 14px
+        font-weight: 500
+        color: $dark
+        margin-bottom: 28px
+
+
+// portfolio and catalogue section
+.heading-type-2
+  font-size: 28px
+  color: $dark
+  margin-bottom: 1rem
+  font-weight: 500
+
+  & + p
+    font-size: 14px
+    font-weight: 300
+
+.portfolio-section
+  padding: 3rem 0
+
+  .portfolio-box
+    margin-bottom: 1rem
+
+    .portfolio-box-info
+      padding: 10px 30px
+      color: #fff
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      z-index: 2
+
+      .title
+        font-size: 18px
+        font-weight: 500
+        position: relative
+        margin: 0
+        transform: none
+        opacity: 0
+        transition: all 300ms
+        color: #ffffff
+
+      &:before
+        width: 0
+        height: 100%
+        background: $primary
+        opacity: 0.9
+        content: ''
+        display: block
+        position: absolute
+        left: 0
+        top: 0
+        transition: all 300ms
+
+      &:after
+        color: #fff
+        font-family: FontAwesome
+        content: '\f105'
+        font-size: 2.714rem
+        right: 15px
+        top: 50%
+        position: absolute
+        transform: translateY(-50%)
+        text-align: right
+        height: 30px
+        width: 20px
+        line-height: 30px
+        opacity: 0
+        transition: all 300ms
+        pointer-events: none
+
+    &:hover
+      .portfolio-box-info:before
+        width: 100%
+
+      .portfolio-box-info:after
+        opacity: 1
+
+      .title
+        opacity: 1
+        transform: translateX(0)
+        text-decoration: none
+
+.catalogue-section
+  padding-bottom: 3rem
+
+  .catalogue-box
+    margin-bottom: 1.7rem
+
+    .catalogue-box-info
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      z-index: 1
+      background: $primary
+      opacity: 0.9
+      padding: 0.5rem 1rem
+      color: #fff
+      font-size: 21px
+      font-weight: 300
+      white-space: nowrap
+      text-overflow: ellipsis
+      overflow: hidden
+
+@import "~bulma"
+
+
+// responsiveness
++tablet-only
+  .blog-list-item .featured-thumbnail
+    flex-basis: 50%
+
++mobile
+  .blog-list-item header
+    display: block
+  .blog-list-item
+
+    .featured-thumbnail
+      max-width: 70%
+      margin: 0 0 1em
+
+/*=============  whatsapp floating btn ======================*/
+.wa__btn_popup
+  position: fixed
+  right: 30px
+  bottom: 30px
+  cursor: pointer
+  font-family: Arial,Helvetica,sans-serif
+  z-index: 999
+
+  .wa__btn_popup_txt
+    position: absolute
+    width: 85px
+    right: 100%
+    background-color: #f5f7f9
+    font-size: 12px
+    color: #43474e
+    top: 15px
+    padding: 7px 0 7px 12px
+    margin-right: 7px
+    letter-spacing: -0.03em
+    border-radius: 4px
+    transition: 0.4s ease all
+
+  .wa__btn_popup_icon
+    width: 56px
+    height: 56px
+    background: #2db742
+    border-radius: 50%
+    box-shadow: 0px 6px 8px 2px rgba(0,0,0,0.14)
+    &:before
+      content: ''
+      position: absolute
+      z-index: 1
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      background: transparent url('../img/whatsapp_logo.svg') center center no-repeat
+      background-size: 30px auto
+      transition: 0.4s ease all
+    &:after
+      content: ''
+      opacity: 0
+      position: absolute
+      z-index: 2
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      background: transparent url('../img/x_icon.svg') center center no-repeat
+      background-size: 14px auto
+      transition: 0.4s ease all
+      transform: scale(0) rotate(-360deg)
+
+  &.wa__active
+    .wa__btn_popup_txt
+      transform: translate(0,15px)
+      opacity: 0
+      visibility: hidden
+    .wa__btn_popup_icon
+      &:before
+        opacity: 0
+        transform: scale(0) rotate(360deg)
+      &:after
+        opacity: 1
+        transform: scale(1) rotate(0deg)
