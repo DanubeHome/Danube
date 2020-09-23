@@ -10,13 +10,14 @@ import {withPrefix} from 'gatsby'
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
 const TemplateWrapper = ({children}) => {
-    const {title, description} = useSiteMetadata()
+    const {title} = useSiteMetadata()
     // if (typeof window != undefined) {
     //     const href = window.location.href;
     //     const urlParts = href.split('#');
     //     if (urlParts && urlParts.length && urlParts[1]) {
     //     }
     // }
+    const description='Danube Home is the Home Interior Retail projection of Danube Group. It is the one-stop retail destination for complete home interiors, exteriors and decors, which comprise of both delicate as well as hard fixtures.';
     return (
         <div>
             <Helmet>
