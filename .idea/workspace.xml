@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01fdad89-bc22-4577-83c8-2fdd0c66c706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/demo/credentials.json.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/demo/demo-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/demo/demo-promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/demo/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/demo/multi-recipients.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/configure-less-secure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/images/a-suspicious-app.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/images/less-secure-app-turn-on1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/images/less-secure-app-turn-on2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/images/less-secure-app-turn-on3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/images/less-secure-app-warning.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/doc/images/sign-in-attempt-was-blocked.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/inch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/package-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/modules/gmail-send/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/contact-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +35,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lambda/modules" />
       <recent name="$PROJECT_DIR$/lambda" />
     </key>
   </component>
@@ -91,7 +65,7 @@
       <workItem from="1599139682209" duration="142000" />
       <workItem from="1599139856942" duration="245000" />
       <workItem from="1600928567916" duration="6422000" />
-      <workItem from="1600936346555" duration="2351000" />
+      <workItem from="1600936346555" duration="2834000" />
     </task>
     <servers />
   </component>

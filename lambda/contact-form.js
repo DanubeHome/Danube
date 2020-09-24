@@ -417,7 +417,9 @@ send({
     text:    'gmail-send example 1',
 }, (error, result, fullResult) => {
     if (error) console.error(error);
+    console.log('=================================================================');
     console.log(result);
+    console.log('=================================================================');
 })
 exports.handler = async function (event, context, callback) {
     try {
