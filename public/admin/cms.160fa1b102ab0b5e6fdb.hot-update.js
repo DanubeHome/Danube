@@ -14,7 +14,7 @@ webpackHotUpdate("cms",{
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
     }
-  
+
 
 /***/ }),
 
@@ -32,7 +32,7 @@ webpackHotUpdate("cms",{
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
     }
-  
+
 
 /***/ }),
 
@@ -606,7 +606,7 @@ var Footer = (_temp = /*#__PURE__*/function (_React$Component) {
         });
 
         var self = _this2;
-        axios.post('https://dhome.thecodewolves.com/.netlify/functions/contact-form', {
+        axios.post('https://franchise.danubehome.com/.netlify/functions/contact-form', {
           type: 'NEWS_LETTER',
           email: email
         }).then(function (response) {
@@ -689,7 +689,7 @@ var _default = Footer;
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
     }
-  
+
 
 /***/ }),
 
@@ -707,7 +707,7 @@ var _default = Footer;
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
     }
-  
+
 
 /***/ }),
 

@@ -205,7 +205,7 @@ const Footer = class extends React.Component {
                                     }
                                     this.setState({submitted: true});
                                     const self = this;
-                                    axios.post('https://dhome.thecodewolves.com/.netlify/functions/contact-form', {
+                                    axios.post('https://franchise.danubehome.com/.netlify/functions/contact-form', {
                                         type: 'NEWS_LETTER',
                                         email
                                     })

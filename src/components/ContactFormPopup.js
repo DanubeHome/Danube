@@ -172,7 +172,7 @@ const ContactFormPopup = class extends React.Component {
 
                                         } else {
                                             this.setState({submitting: true});
-                                            axios.post('https://dhome.thecodewolves.com/.netlify/functions/contact-form', {
+                                            axios.post('https://franchise.danubehome.com/.netlify/functions/contact-form', {
                                                 name,
                                                 email,
                                                 phoneNumber,
