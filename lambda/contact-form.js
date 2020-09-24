@@ -409,6 +409,10 @@ const tilesCatalogue = {
 };
 exports.handler = async function (event, context, callback) {
     try {
+        console.log(fromEmail,fromPassword);
+        console.log('--------------');
+
+
         const type = JSON.parse(event.body).type;
         const name = JSON.parse(event.body).name;
         const email = JSON.parse(event.body).email;
