@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01fdad89-bc22-4577-83c8-2fdd0c66c706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lambda/credentials.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/connectSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/connectSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/contact-form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,7 @@
       <updated>1599139681076</updated>
       <workItem from="1599139682209" duration="142000" />
       <workItem from="1599139856942" duration="245000" />
-      <workItem from="1600928567916" duration="2463000" />
+      <workItem from="1600928567916" duration="3663000" />
     </task>
     <servers />
   </component>

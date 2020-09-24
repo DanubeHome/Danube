@@ -5,11 +5,11 @@ var smtpTransport = require('nodemailer-smtp-transport');
 var handlebars = require('handlebars');
 var fs = require('fs');
 
-const fromEmail = 'danubehomefranchise@gmail.com';
+const fromEmail = 'dhfranchisedev@gmail.com';
 const fromEmailWithName = `Danube Home Franchise  `+ `<danubehomefranchise` + `@gmail.com>`;
 const ccEmail = 'abhishek@valuescale.in';
 const adminEmail = 'abhishek@valuescale.in';
-const fromPassword = 'D@NUBEhome';
+const fromPassword = 'dhfranchise123$';
 var readHTMLFile = function (path, callback) {
     fs.readFile(path, {encoding: 'utf-8'}, function (err, html) {
         if (err) {
