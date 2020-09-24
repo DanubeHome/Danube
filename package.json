@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-remark": "^2.7.5",
     "gatsby-transformer-sharp": "^2.4.7",
+    "gmail-send": "^1.8.10",
     "googleapis": "^54.1.0",
     "handlebars": "^4.7.6",
     "lodash": "^4.17.15",
