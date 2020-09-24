@@ -12,23 +12,22 @@ const SCOPES = [
 // created automatically when the authorization flow completes for the first
 // time.
 const TOKEN_PATH = "./token.json";
-const spreadsheetId = "12oIEFMuWdxlNk33eu5pIIZdWaciPpO4690664-RJYL4";
+const spreadsheetId = "1SmsgckTuPcionjuZfWb-4x2h5v__d-yCWhdxGmfOuV0";
 let oAuth2ClientCredentials = {
     "web": {
-        "client_id": "766114505242-pik26njk37032nu3qkhq7ucrjsi8o66v.apps.googleusercontent.com",
-        "project_id": "original-dryad-283810",
+        "client_id": "26769274507-pijn1l2gsp5j43ftbff9i38p3cgho7te.apps.googleusercontent.com",
+        "project_id": "danube-website-1600928912725",
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_secret": "WJpQL5VhoP82TeuOkzaoRFj-",
-        "redirect_uris": [
-            "https://dhome.thecodewolves.com"
-        ]
+        "client_secret": "UT5NZ4_m6qw1z1dUwF84NpvD",
+        "redirect_uris": ["https://franchise.danubehome.com"],
+        "javascript_origins": ["https://franchise.danubehome.com"]
     }
 };
 // Load client secrets from a local file.
 authorize(
-oAuth2ClientCredentials
+    oAuth2ClientCredentials
     , listMajors);
 
 /**
@@ -50,13 +49,14 @@ function authorize(credentials, callback) {
     //     if (err) return getNewToken(oAuth2Client, callback);
     // });
     oAuth2Client.setCredentials({
-            "access_token": "ya29.a0AfH6SMAwC1YBmJY2LVdEm2EAM1x3GzW9td_fozwnlyvaqFAoPCwEdt07z2hmT1CvWYvfTwk1idICmX9mY-VrvevZzB_EVRvt0DJ3MCMhTxMsWCyCbtYhmtTvv8NG1UKgxDCMVPKYFnwLvZFu86BsQavV6-fTZwPggX8",
-            "refresh_token": "1//0gcsvAzprX7MJCgYIARAAGBASNwF-L9Ir3zW5pMjyAlUvS49oKydOQVS8AsMu9zNlMw8HZpquhqDXgq8xhqVFwXNBQ8t4xOUnFQA",
-            "scope": "https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/spreadsheets",
+            "access_token": "ya29.a0AfH6SMCY6p6O9fJHL0U-5FabxpAl6M0cgsAmFViEOZi8-io2JttvalP66v9J6xBeOyUJ-lYMkL5UTF-R6yqpX1iKr1ZuaU0T5nlBRvVYimx7QO3dr2USILjQfvng4RoTyJ0tApls11BprqCElBds1vP7htSKeD2VG7A",
+            "refresh_token": "1//0gfwXhLO6aJbVCgYIARAAGBASNwF-L9IrSOLzUCZ0frpkH8pdupwMLKQwrWB8VmIio4CFp0U5Q0dkTgtPJw1WYsvbSjRFsALIKo4",
+            "scope": "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file",
             "token_type": "Bearer",
-            "expiry_date": 1595160542875
+            "expiry_date": 1600934551976
         }
     );
+    console.log('here');
     callback(oAuth2Client);
 }
 

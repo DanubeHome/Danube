@@ -7,7 +7,7 @@ var fs = require('fs');
 
 const fromEmail = 'danubehomefranchise@gmail.com';
 const fromEmailWithName = `Danube Home Franchise  `+ `<danubehomefranchise` + `@gmail.com>`;
-const ccEmail = 'himanshu@luezoid.com,abhishek@valuescale.in';
+const ccEmail = 'abhishek@valuescale.in';
 const adminEmail = 'abhishek@valuescale.in';
 const fromPassword = 'D@NUBEhome';
 var readHTMLFile = function (path, callback) {
