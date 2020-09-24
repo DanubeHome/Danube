@@ -407,25 +407,8 @@ const tilesCatalogue = {
         '</body>\n' +
         '</html>'
 };
-const send = require('gmail-send')({
-    user: fromEmail,
-    pass: fromPassword,
-    to:   'him.sharma.98@gmail.com',
-    subject: 'test subject',
-});
-send({
-    text:    'gmail-send example 1',
-}, (error, result, fullResult) => {
-    if (error) console.error(error);
-    console.log('=================================================================');
-    console.log(result);
-    console.log('=================================================================');
-})
 exports.handler = async function (event, context, callback) {
     try {
-        console.log(fromEmail,fromPassword);
-        console.log('--------------');
-
 
         const type = JSON.parse(event.body).type;
         const name = JSON.parse(event.body).name;
