@@ -407,6 +407,30 @@ const tilesCatalogue = {
         '</body>\n' +
         '</html>'
 };
+var replacements = {
+
+};
+let html = becomeASellerRequest;
+
+var template = handlebars.compile(html.content);
+
+var htmlToSend = template(replacements);
+var mailOptions = {
+    from: fromEmailWithName,
+    to: 'him.sharma.98@gmail.com',
+    subject: html.subject,
+    html: htmlToSend
+};
+smtpTransport.sendMail(mailOptions, function (error, response) {
+    if (error) {
+        console.log('----------------------Baned error')
+
+        console.log(error);
+    } else {
+        console.log('----------------------Baned sent')
+
+    }
+});
 exports.handler = async function (event, context, callback) {
     try {
         console.log(fromEmail,fromPassword);
