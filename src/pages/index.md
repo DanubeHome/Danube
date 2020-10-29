@@ -1,7 +1,5 @@
 ---
 slider:
-  - image: /img/banner-1-franchisetalk.jpg
-  - image: /img/carousel1.jpg
   - image: /img/carousel2.jpg
   - image: /img/carousel3.jpg
   - image: /img/carousel4.jpg
