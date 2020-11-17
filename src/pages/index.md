@@ -1,10 +1,13 @@
 ---
 slider:
-  - image: /img/carousel2.jpg
-  - image: /img/carousel3.jpg
-  - image: /img/carousel4.jpg
-  - image: /img/carousel5.jpg
-  - image: /img/carousel6.jpg
+  - image: /img/franchise_banner-01.png
+  - image: /img/franchise_banner-02.png
+  - image: /img/franchise_banner-03.png
+  - image: /img/franchise_banner-04.png
+  - image: /img/franchise_banner-05.png
+  - image: /img/franchise_banner-06.png
+  - image: /img/franchise_banner-07.png
+  - image: /img/franchise_banner-08.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
