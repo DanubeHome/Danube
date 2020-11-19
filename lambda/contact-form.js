@@ -7,8 +7,8 @@ var fs = require('fs');
 
 const fromEmail = 'dhfranchisedev@gmail.com';
 const fromEmailWithName = `Danube Home Franchise  `+ `<danubehomefranchise` + `@gmail.com>`;
-const ccEmail = 'abhishek@valuescale.in';
-const adminEmail = 'abhishek@valuescale.in';
+const ccEmail = '';
+const adminEmail = 'sayed.habib@aldanube.com,sambit.sahoo@danubehome.com,rajat.sharma@danubehome.com,franchise@danubehome.com';
 const fromPassword = 'dhfranchise123$';
 var readHTMLFile = function (path, callback) {
     fs.readFile(path, {encoding: 'utf-8'}, function (err, html) {
@@ -523,7 +523,6 @@ exports.handler = async function (event, context, callback) {
             var mailOptions = {
                 from: fromEmailWithName,
                 to: adminEmail,
-                cc: ccEmail,
                 subject: html.adminSubject.replace('{{email}}', email).replace('{{name}}', name),
                 html: htmlToSend
             };
