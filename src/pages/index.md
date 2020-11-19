@@ -1,12 +1,14 @@
 ---
 slider:
-  - image: /img/banner-1-franchisetalk.jpg
-  - image: /img/carousel1.jpg
-  - image: /img/carousel2.jpg
-  - image: /img/carousel3.jpg
-  - image: /img/carousel4.jpg
-  - image: /img/carousel5.jpg
-  - image: /img/carousel6.jpg
+  - image: /img/franchise_banner-00.jpeg
+  - image: /img/franchise_banner-01.png
+  - image: /img/franchise_banner-02.png
+  - image: /img/franchise_banner-03.png
+  - image: /img/franchise_banner-04.png
+  - image: /img/franchise_banner-05.png
+  - image: /img/franchise_banner-06.png
+  - image: /img/franchise_banner-07.png
+  - image: /img/franchise_banner-08.png
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
@@ -60,7 +62,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-title: Great coffee with a conscience
+title: "Home "
 infoCards:
   - image: /img/infoImage1.png
     overlayTitle: Become a Franchise
