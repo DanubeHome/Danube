@@ -12,8 +12,7 @@ slider:
     link: '/about'
   - image: /img/franchise_banner-08.png
     link: '/about'
-  - image: /img/dhfranchise-banner.gif
-    link: '/about'
+
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
