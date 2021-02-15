@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="01fdad89-bc22-4577-83c8-2fdd0c66c706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/product-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/product-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_headers" beforeDir="false" afterPath="$PROJECT_DIR$/public/_headers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/cms.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/cms.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/become-a-franchise/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/become-a-franchise/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-product-page-js-d83caa21ccabad827cdb.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/component---src-templates-product-page-js-d83caa21ccabad827cdb.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/3046798771.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/3046798771.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,7 @@
       <workItem from="1605777961420" duration="1414000" />
       <workItem from="1605867616718" duration="83000" />
       <workItem from="1606451637122" duration="6000" />
-      <workItem from="1613377599136" duration="5701000" />
+      <workItem from="1613377599136" duration="6793000" />
     </task>
     <servers />
   </component>
