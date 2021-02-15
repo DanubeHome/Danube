@@ -7,7 +7,7 @@ slider:
   - image: /img/franchise_banner-05.png
     link: /about
   - image: /img/franchise_banner-06.png
-    link: https://uae.danubehome.com/virtual-tour
+    link: /uae.danubehome.com/virtual-tour
   - image: /img/franchise_banner-07.png
     link: https://uae.danubehome.com/
   - image: /img/franchise_banner-08.png
