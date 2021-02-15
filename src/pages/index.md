@@ -1,6 +1,6 @@
 ---
 slider:
-  - image: /img/banner.gif
+  - image: /img/about-banner.jpg
   - image: /img/franchise_banner-02.png
   - image: /img/franchise_banner-03.png
   - image: /img/banner.gif
