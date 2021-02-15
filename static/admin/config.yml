@@ -45,7 +45,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Slider, name: slider, widget: list, fields: [{label: Image, name: image, widget: image}]}
+          - {label: Slider, name: slider, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Link, name: link, widget: string}]}
           - {label: Info Cards, name: infoCards, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Overlay Title, name: overlayTitle, widget: string}, {label: Content, name: content, widget: string}, {label: Action Title, name: actionTitle, widget: string}, {label: Action Link, name: actionLink, widget: string}]}
           - {label: About Section, name: aboutSection, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: About Cards, name: aboutCards, widget: list, fields: [{label: Title, name: aboutCardTitle, widget: string}, {label: Content, name: aboutCardContent, widget: string}]}, {label: Action Title, name: actionTitle, widget: string}, {label: Action Link, name: actionLink, widget: string}]}
           - {label: Why Section, name: whySection, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Cards, name: whyCards, widget: list, fields: [{label: Icon, name: whyCardIcon, widget: string}, {label: Title, name: title, widget: string}]}, {label: Action Title, name: actionTitle, widget: string}, {label: Action Link, name: actionLink, widget: string}]}

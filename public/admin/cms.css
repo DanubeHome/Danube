@@ -4297,6 +4297,7 @@ a.close.disabled {
   display: block;
   height: calc(100vh - 1rem);
   height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
   content: ""; }
 
@@ -4393,6 +4394,7 @@ a.close.disabled {
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);
     height: -webkit-min-content;
+    height: -moz-min-content;
     height: min-content; }
   .modal-sm {
     max-width: 300px; } }
@@ -8901,6 +8903,7 @@ html {
   overflow-y: scroll;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%; }
 
@@ -14379,6 +14382,7 @@ label.panel-block {
   flex-grow: 1;
   flex-shrink: 1;
   min-height: -webkit-min-content;
+  min-height: -moz-min-content;
   min-height: min-content; }
   .tile.is-ancestor {
     margin-left: -0.75rem;

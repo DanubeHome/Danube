@@ -19,12 +19,12 @@ const Slider = props => {
         <section css={innerWidth < 768 ? MobileSliderCSS : SliderCSS(innerWidth)}>
             {
                 slides.map((s, i) => {
-                    return i === currentSlide ? <Link to={`/about`}
+                    return i === currentSlide ? <a rel="noopener noreferrer" href={s.link || '/about'}
                                                       target="_blank"
                         className={currentSlide === i ? `d-block zoom-in` : 'd-block hidden-slide'}
                         css={css`
                           height: 100%;
-                          background-image: url('${slides[currentSlide].image.childImageSharp.fluid.src}');
+                          background-image: url('${slides[currentSlide].image.childImageSharp ? slides[currentSlide].image.childImageSharp.fluid.src : ''}');
                           background-size: cover;
                           transform:scale(1.05);
                           background-repeat: no-repeat;
@@ -36,20 +36,6 @@ const Slider = props => {
                 })
 
             }
-            {/*<Arrow handleClick={() => {*/}
-            {/*    if (currentSlide === 0) {*/}
-            {/*        changeSlide(slides.length - 1);*/}
-            {/*    } else {*/}
-            {/*        changeSlide(currentSlide - 1);*/}
-            {/*    }*/}
-            {/*}}/>*/}
-            {/*<Arrow handleClick={() => {*/}
-            {/*    if (currentSlide === slides.length - 1) {*/}
-            {/*        changeSlide(0);*/}
-            {/*    } else {*/}
-            {/*        changeSlide(currentSlide + 1);*/}
-            {/*    }*/}
-            {/*}} direction={'right'}/>*/}
             <div className="dotts-wrapper">
                 {
                     slides.map((s, i) => {
