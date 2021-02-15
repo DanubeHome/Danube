@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fdad89-bc22-4577-83c8-2fdd0c66c706" name="Default Changelist" comment="" />
+    <list default="true" id="01fdad89-bc22-4577-83c8-2fdd0c66c706" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/brewing/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/chemex/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/flavor/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/green-beans/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/jamaica/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/tags/tasting/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/product-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/product-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +84,7 @@
       <workItem from="1605777961420" duration="1414000" />
       <workItem from="1605867616718" duration="83000" />
       <workItem from="1606451637122" duration="6000" />
-      <workItem from="1613377599136" duration="2869000" />
+      <workItem from="1613377599136" duration="4486000" />
     </task>
     <servers />
   </component>
