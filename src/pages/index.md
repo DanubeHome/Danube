@@ -12,6 +12,10 @@ slider:
     link: https://uae.danubehome.com/
   - image: /img/franchise_banner-08.png
     link: /about
+  - image: /img/aspire-magazine.jpg
+    link: https://aspiredubai.ae/issue-5-february-2021/
+  - image: /img/gcc-business-news.jpg
+    link: https://www.gccbusinessnews.com/danube-homes-picks-indias-netcore-to-enhance-customer-relations/
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
