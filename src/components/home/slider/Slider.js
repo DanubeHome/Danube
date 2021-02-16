@@ -20,9 +20,9 @@ const Slider = props => {
             {
                 slides.map((s, i) => {
                     return i === currentSlide ? <a rel="noopener noreferrer" href={s.link || '/about'}
-                                                      target="_blank"
-                        className={currentSlide === i ? `d-block zoom-in` : 'd-block hidden-slide'}
-                        css={css`
+                                                   target="_blank"
+                                                   className={currentSlide === i ? `d-block zoom-in` : 'd-block hidden-slide'}
+                                                   css={css`
                           height: 100%;
                           background-image: url('${slides[currentSlide].image.childImageSharp ? slides[currentSlide].image.childImageSharp.fluid.src : ''}');
                           background-size: cover;

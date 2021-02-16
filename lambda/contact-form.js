@@ -8,7 +8,7 @@ var fs = require('fs');
 const fromEmail = 'dhfranchisedev@gmail.com';
 const fromEmailWithName = `Danube Home Franchise  `+ `<danubehomefranchise` + `@gmail.com>`;
 const ccEmail = '';
-const adminEmail = 'sayed.habib@aldanube.com,sambit.sahoo@danubehome.com,rajat.sharma@danubehome.com,franchise@danubehome.com';
+const adminEmail = 'sayed.habib@aldanube.com,sambit.sahoo@danubehome.com,rajat.sharma@danubehome.com,franchise@danubehome.com,Mahfooz.gafoor@aldanube.com';
 const fromPassword = 'dhfranchise123$';
 var readHTMLFile = function (path, callback) {
     fs.readFile(path, {encoding: 'utf-8'}, function (err, html) {

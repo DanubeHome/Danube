@@ -3,12 +3,147 @@
   <component name="ChangeListManager">
     <list default="true" id="01fdad89-bc22-4577-83c8-2fdd0c66c706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_headers" beforeDir="false" afterPath="$PROJECT_DIR$/public/_headers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/4508193a7644ad5973efb84ba27862d599091fd5-d53c4c9f474fa977d3ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/4508193a7644ad5973efb84ba27862d599091fd5-d53c4c9f474fa977d3ca.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/532a2f07-549094fa347c85980056.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/532a2f07-549094fa347c85980056.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/532a2f07-549094fa347c85980056.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/cms.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/cms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/cms.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/cms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/cms.js.LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/admin/cms.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/cms.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/become-a-franchise/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/become-a-franchise/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-templates-product-page-js-d83caa21ccabad827cdb.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/component---src-templates-product-page-js-d83caa21ccabad827cdb.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-c14fcd044df430c251d7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-c14fcd044df430c251d7.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-c14fcd044df430c251d7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/become-a-franchise/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/become-a-seller/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-71c9001f5c95a5c3f731.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-71c9001f5c95a5c3f731.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-71c9001f5c95a5c3f731.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-2cd6b0515398a8f5fa18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-2cd6b0515398a8f5fa18.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-blog-index-js-2952e7a27270214a4eec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-blog-index-js-2952e7a27270214a4eec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-portfolio-index-js-bef09e87737ee50c7396.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-portfolio-index-js-bef09e87737ee50c7396.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-tags-index-js-578bc9c1426ea622a165.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-tags-index-js-578bc9c1426ea622a165.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-about-page-js-1c5be8244c600d7a3839.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-about-page-js-1c5be8244c600d7a3839.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-become-a-franchise-page-js-9f878f66d8cf24e84da7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-become-a-franchise-page-js-9f878f66d8cf24e84da7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-become-a-seller-page-js-36ecda0ea1498cfcca8e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-become-a-seller-page-js-36ecda0ea1498cfcca8e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-blog-post-js-a207935466fb846cdfb1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-blog-post-js-a207935466fb846cdfb1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-contact-page-js-2f2f0e143423c1317077.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-contact-page-js-2f2f0e143423c1317077.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-franchise-concepts-page-js-0ee996424639f5e537fe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-franchise-concepts-page-js-0ee996424639f5e537fe.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-get-partnership-process-page-js-5bf95c37d41f620cebb5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-get-partnership-process-page-js-5bf95c37d41f620cebb5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-index-page-js-ee857f70a883c50f197b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-index-page-js-ee857f70a883c50f197b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-our-journey-page-js-3674cba924f4571cc5fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-our-journey-page-js-3674cba924f4571cc5fa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-portfolio-page-js-1c0ea7661941c3059110.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-portfolio-page-js-1c0ea7661941c3059110.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-portfolio-page-js-1c0ea7661941c3059110.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-product-page-js-d83caa21ccabad827cdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-product-page-js-d83caa21ccabad827cdb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-success-story-page-js-74b903b19417702f0ed1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-success-story-page-js-74b903b19417702f0ed1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-tags-js-53a2dddfbf8102fb0f02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-tags-js-53a2dddfbf8102fb0f02.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-video-gallery-page-js-cd438f9da23f94647ba4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-video-gallery-page-js-cd438f9da23f94647ba4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-why-us-page-js-02af5c8b45be59ec8f2e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-templates-why-us-page-js-02af5c8b45be59ec8f2e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/d9831dc8f2ed20fbe73b17f971d9e2df4d8a7fec-201b63044973763cf1a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/d9831dc8f2ed20fbe73b17f971d9e2df4d8a7fec-201b63044973763cf1a1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-0bea846c4920dda81cc4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-0bea846c4920dda81cc4.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-0bea846c4920dda81cc4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/franchise-concepts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/get-partnership-process/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/our-journey/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/1606870023.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/1606870023.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/3046798771.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/sq/d/3046798771.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/polyfill-41c0d75487ed75404f36.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/polyfill-41c0d75487ed75404f36.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/functional/blinds-curtains-carpets-wallpaper/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/functional/chandelier/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/functional/furniture/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/functional/garden-outdoor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/functional/homedecor-homeware-home-furnishing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/functional/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/life-style/hardware-electrical/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/life-style/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/life-style/modular-kitchen/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/life-style/sanitary/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portfolio/life-style/tiles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/products/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/0-a9151b47ca35dc1f55cc0c71a7c0b6af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/Awards-46f6b314473515ff71399d86370e39e5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/Branches-f6fb3117779c79d2a0f1bcd604e3a25c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/Easy_4_Steps_To_Purchase-c96c4ab73e5e84d616b33f83426015e8.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/Employees-84b2195e27fecc556ad9816db493b7a6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/Presence-min-0335c1846d99b172c94a441eb57f0ba2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/Products-c354f43cc3bf1d23d3e09641905374ba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/about-banner-3502ee4de0d34559441544fac457471f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/about-banner2-d9b325cd23e9ec8f30d66797db15c43b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/accolades-074e51ef65927a0eaf7c68d8e36013b6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/award1-43d27be8dd19db1cabc2569772d11a7f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/award2-949787574f9e5c3c8c985a527c99c52c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/award3-b00d5fc62a72a148b9facc9b10ac3234.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/award4-a0be6c7f9a0393f1846f075e5784aff3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/award5-2caf502270d76b8920c81b2c79eed423.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/award6-afa43b59f2737dc1cc577d6c2d2ae8f4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/brand-7907b5aec472cb7cfccaf75f16bb4648.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/catalogue1-52554790361be1edb3ba4b7a1410664a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/catalogue2-01d0a3666e1a867c08bee91721962fbe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/catalogue3-f3ba6ab5bcdc5b9bf312f629d7b5fb4b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/catalogue4-d3538fa652e74fda12c3f233ec2cfd13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/danube-franchise-global-presence-e35d3e58ed62bea4deffc565c3aab0be.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/danube-franchise-journey-883d3516df48c6c8174feacc72cc0e06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/footerbg-2071d9964e584f8837855b6b452cc863.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sourcing-countries-29682d80305c50c73e9ea71ca46619aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/success1-3c9de9f40aa3f2b4f4610c029128e4d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/technology-partner-6a60b5d1bbb698a1828730e3a767b989.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/testing-partner-ae7c5de30a28e756795ab0f86b9444ae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/value-ac86ee875129bb2a1c3bc4b148acb802.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles-e9d24b1846c7d6eb9685.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles-e9d24b1846c7d6eb9685.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.a118a63f19dfde70315a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/success-story/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/brewing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/chemex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/flavor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/green-beans/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/jamaica/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/tasting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/video-gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-a491f5f494c144bc2386.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-a491f5f494c144bc2386.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/why-us/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index-page.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +213,9 @@
       <workItem from="1605777961420" duration="1414000" />
       <workItem from="1605867616718" duration="83000" />
       <workItem from="1606451637122" duration="6000" />
-      <workItem from="1613377599136" duration="6793000" />
+      <workItem from="1613377599136" duration="7454000" />
+      <workItem from="1613440486578" duration="599000" />
+      <workItem from="1613457679869" duration="182000" />
     </task>
     <servers />
   </component>

@@ -109,6 +109,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            link
         }
         infoCards {
             image {
