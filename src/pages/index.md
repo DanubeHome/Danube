@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/360-view-copy.jpg
+    link: https://uae.danubehome.com/virtual-tour
   - image: /img/danube-home-enhancement.jpg
     link: https://thebusinessberg.com/danube-home-composing-the-ultimate-home-experience/
   - image: /img/aspire-magazine.jpg
