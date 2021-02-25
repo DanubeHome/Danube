@@ -16,12 +16,8 @@ slider:
     link: /about
   - image: /img/franchise_banner-05.png
     link: https://uae.danubehome.com/virtual-tour
-  - image: /img/franchise_banner-06.png
-    link: https://uae.danubehome.com/virtual-tour
   - image: /img/franchise_banner-07.png
     link: https://uae.danubehome.com/
-  - image: /img/franchise_banner-08.png
-    link: /about
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
