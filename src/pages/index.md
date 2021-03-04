@@ -1,9 +1,9 @@
 ---
 slider:
-  - image: /img/360-view-copy.jpg
-    link: https://uae.danubehome.com/virtual-tour
   - image: /img/ureka.jpg
     link: /about
+  - image: /img/360-view-copy.jpg
+    link: https://uae.danubehome.com/virtual-tour
   - image: /img/aspire-magazine.jpg
     link: https://aspiredubai.ae/issue-5-february-2021/
   - image: /img/home-delivery-mena.jpg
