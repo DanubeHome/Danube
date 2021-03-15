@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/catalogue-launched.jpg
+    link: https://view.publitas.com/danube-home/decor-catalog-2021/
   - image: /img/ureka.jpg
     link: /about
   - image: /img/360-view-copy.jpg
