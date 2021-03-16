@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/rwanda-now-open.jpg
+    link: /about
   - image: /img/catalogue-launched.jpg
     link: https://view.publitas.com/danube-home/decor-catalog-2021/
   - image: /img/ureka.jpg
