@@ -1,27 +1,21 @@
 ---
 slider:
+  - image: /img/ramadan.jpg
+    link: /about
   - image: /img/rwanda-now-open.jpg
     link: /about
   - image: /img/catalogue-launched.jpg
     link: https://view.publitas.com/danube-home/decor-catalog-2021/
-  - image: /img/ureka.jpg
-    link: /about
   - image: /img/360-view-copy.jpg
     link: https://uae.danubehome.com/virtual-tour
   - image: /img/aspire-magazine.jpg
     link: https://aspiredubai.ae/issue-5-february-2021/
-  - image: /img/home-delivery-mena.jpg
-    link: https://www.terrapinn.com/virtual/home-delivery-mena
   - image: /img/app.jpg
     link: /about
-  - image: /img/gcc-business-news.jpg
-    link: https://www.gccbusinessnews.com/danube-homes-picks-indias-netcore-to-enhance-customer-relations/
   - image: /img/awards.jpg
     link: https://franchise.danubehome.com/
   - image: /img/franchise_banner-03.png
     link: /about
-  - image: /img/franchise_banner-07.png
-    link: https://uae.danubehome.com/
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
