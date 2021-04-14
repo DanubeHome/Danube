@@ -2,6 +2,8 @@
 slider:
   - image: /img/ramadan.jpg
     link: /about
+  - image: /img/retailme-banner.jpg
+    link: https://vimeo.com/479267725/5ebd76cca0
   - image: /img/rwanda-now-open.jpg
     link: /about
   - image: /img/catalogue-launched.jpg
