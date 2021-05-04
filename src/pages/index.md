@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/nepal-opening.jpg
+    link: https://www.linkedin.com/posts/danube-home-franchise_franchise-partnership-homedecor-activity-6792066089506369536-Ekxa
   - image: /img/ramadan.jpg
     link: /about
   - image: /img/retailme-banner.jpg
