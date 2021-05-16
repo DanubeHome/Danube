@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/donate-10-copy.jpg
+    link: https://gulfnews.com/business/company-releases/danube-home-dubai-pledges-to-donate-10-of-its-profits-towards-covid-relief-in-india-1.1620639846965
   - image: /img/eid-mubarak-banner.jpg
     link: /about
   - image: /img/nepal-opening.jpg
@@ -22,6 +24,8 @@ slider:
     link: https://franchise.danubehome.com/
   - image: /img/franchise_banner-03.png
     link: /about
+  - image: /img/arabian-business-copy.jpg
+    link: https://www.linkedin.com/company/danube-home-franchise/posts/?feedView=all
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
