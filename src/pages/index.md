@@ -4,12 +4,8 @@ slider:
     link: https://www.linkedin.com/company/danube-home-franchise/posts/?feedView=all
   - image: /img/donate-10-copy.jpg
     link: https://gulfnews.com/business/company-releases/danube-home-dubai-pledges-to-donate-10-of-its-profits-towards-covid-relief-in-india-1.1620639846965
-  - image: /img/eid-mubarak-banner.jpg
-    link: /about
   - image: /img/nepal-opening.jpg
     link: https://www.linkedin.com/posts/danube-home-franchise_franchise-partnership-homedecor-activity-6792066089506369536-Ekxa
-  - image: /img/ramadan.jpg
-    link: /about
   - image: /img/retailme-banner.jpg
     link: https://vimeo.com/479267725/5ebd76cca0
   - image: /img/rwanda-now-open.jpg
@@ -18,10 +14,6 @@ slider:
     link: https://view.publitas.com/danube-home/decor-catalog-2021/
   - image: /img/360-view-copy.jpg
     link: https://uae.danubehome.com/virtual-tour
-  - image: /img/aspire-magazine.jpg
-    link: https://aspiredubai.ae/issue-5-february-2021/
-  - image: /img/app.jpg
-    link: /about
   - image: /img/awards.jpg
     link: https://franchise.danubehome.com/
   - image: /img/franchise_banner-03.png
