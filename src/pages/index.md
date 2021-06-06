@@ -1,6 +1,6 @@
 ---
 slider:
-  - image: /img/screen-shot-2021-06-06-at-9.03.03-am.png
+  - image: /img/screen-shot-2021-06-06-at-9.20.14-am.png
     link: https://thebusinessberg.com/danube-home-composing-the-ultimate-home-experience/
   - image: /img/arabian-business-copy.jpg
     link: https://www.linkedin.com/company/danube-home-franchise/posts/?feedView=all
