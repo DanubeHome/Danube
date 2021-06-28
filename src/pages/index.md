@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/world-book-of-record.png
+    link: https://view.publitas.com/danube-home/decor-catalog-2021/
   - image: /img/screen-shot-2021-06-06-at-9.20.14-am.png
     link: https://thebusinessberg.com/danube-home-composing-the-ultimate-home-experience/
   - image: /img/arabian-business-copy.jpg
@@ -12,8 +14,6 @@ slider:
     link: https://vimeo.com/479267725/5ebd76cca0
   - image: /img/rwanda-now-open.jpg
     link: /about
-  - image: /img/catalogue-launched.jpg
-    link: https://view.publitas.com/danube-home/decor-catalog-2021/
   - image: /img/360-view-copy.jpg
     link: https://uae.danubehome.com/virtual-tour
   - image: /img/awards.jpg
