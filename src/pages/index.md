@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/screen-shot-2021-09-21-at-4.00.14-pm.png
+    link: /about
   - image: /img/world-book-of-record.png
     link: https://www.instagram.com/p/CQgQp9hH1Y5
   - image: /img/screen-shot-2021-06-06-at-9.20.14-am.png
