@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/screen-shot-2022-06-22-at-2.39.57-pm.png
+    link: https://www.linkedin.com/posts/danube-home-franchise_dubai-nigeria-abuja-activity-6944993164860481536-x4-I?utm_source=linkedin_share&utm_medium=member_desktop_web
   - image: /img/world-book-of-record.png
     link: https://www.instagram.com/p/CQgQp9hH1Y5
   - image: /img/screen-shot-2021-06-06-at-9.20.14-am.png
@@ -14,10 +16,6 @@ slider:
     link: https://vimeo.com/479267725/5ebd76cca0
   - image: /img/rwanda-now-open.jpg
     link: /about
-  - image: /img/catalogue-launched.jpg
-    link: https://view.publitas.com/danube-home/decor-catalog-2021/
-  - image: /img/360-view-copy.jpg
-    link: https://uae.danubehome.com/virtual-tour
   - image: /img/awards.jpg
     link: https://franchise.danubehome.com/
   - image: /img/franchise_banner-03.png
