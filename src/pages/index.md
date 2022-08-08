@@ -2,6 +2,8 @@
 slider:
   - image: /img/mauritius.jpg
     link: https://www.khaleejtimes.com/business/danube-home-set-to-open-its-first-showroom-in-mauritius
+  - image: /img/ceo1.jpg
+    link: https://www.linkedin.com/feed/update/urn:li:share:6914892412100194304?utm_source=linkedin_share&utm_medium=member_desktop_share&utm_content=post
   - image: /img/screen-shot-2022-06-22-at-2.39.57-pm.png
     link: https://www.linkedin.com/posts/danube-home-franchise_dubai-nigeria-abuja-activity-6944993164860481536-x4-I?utm_source=linkedin_share&utm_medium=member_desktop_web
   - image: /img/world-book-of-record.png
@@ -10,10 +12,6 @@ slider:
     link: https://thebusinessberg.com/danube-home-composing-the-ultimate-home-experience/
   - image: /img/arabian-business-copy.jpg
     link: https://www.linkedin.com/company/danube-home-franchise/posts/?feedView=all
-  - image: /img/donate-10-copy.jpg
-    link: https://gulfnews.com/business/company-releases/danube-home-dubai-pledges-to-donate-10-of-its-profits-towards-covid-relief-in-india-1.1620639846965
-  - image: /img/nepal-opening.jpg
-    link: https://www.linkedin.com/posts/danube-home-franchise_franchise-partnership-homedecor-activity-6792066089506369536-Ekxa
   - image: /img/retailme-banner.jpg
     link: https://vimeo.com/479267725/5ebd76cca0
   - image: /img/rwanda-now-open.jpg
