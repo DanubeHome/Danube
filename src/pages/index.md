@@ -1,5 +1,7 @@
 ---
 slider:
+  - image: /img/mauritius.jpg
+    link: https://www.khaleejtimes.com/business/danube-home-set-to-open-its-first-showroom-in-mauritius
   - image: /img/screen-shot-2022-06-22-at-2.39.57-pm.png
     link: https://www.linkedin.com/posts/danube-home-franchise_dubai-nigeria-abuja-activity-6944993164860481536-x4-I?utm_source=linkedin_share&utm_medium=member_desktop_web
   - image: /img/world-book-of-record.png
