@@ -83,7 +83,7 @@ const Footer = class extends React.Component {
                                     </div>
                                 </a>
                             </div>
-                            <div className="wa__popup_content_item ">
+                            {/*<div className="wa__popup_content_item ">
                                 <a target="_blank"
                                    href="https://web.whatsapp.com/send?phone=971554717055&amp;text=Hi, I visited Danube Franchise Website and have some queries."
                                    className="wa__stt wa__stt_online">
@@ -97,7 +97,7 @@ const Footer = class extends React.Component {
                                         <div className="wa__member_duty">Franchise Consultant</div>
                                     </div>
                                 </a>
-                            </div>
+                            </div>*/}
 
                         </div>
                     </div>
