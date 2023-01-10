@@ -98,7 +98,6 @@ const Footer = class extends React.Component {
                                     </div>
                                 </a>
                             </div>*/}
-
                         </div>
                     </div>
                 </div>
