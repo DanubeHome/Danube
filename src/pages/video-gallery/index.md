@@ -22,4 +22,27 @@ vCategory:
       - url: https://www.youtube.com/embed/Gwv49sErWMg
       - url: https://www.youtube.com/embed/aa61XBdwY-Q
     catTitle: TANZANIA
+  - catTitle: BANGLADESH
+    videos:
+      - url: https://www.youtube.com/embed/dAOUCSLhOKE
+      - url: https://www.youtube.com/embed/2msJ-2uq2A0
+      - url: https://www.youtube.com/embed/eRm4m8o3JH0
+  - catTitle: NEPAL
+    videos:
+      - url: https://www.youtube.com/embed/HkYpKclsFoo
+      - url: https://www.youtube.com/embed/9mwB-xXVbFA
+      - url: https://www.youtube.com/embed/4miRfLE7nqQ
+  - catTitle: GHANA
+    videos:
+      - url: https://www.youtube.com/embed/LJcou6RGqGk
+  - catTitle: RWANDA
+    videos:
+      - url: https://www.youtube.com/embed/D0fsCF11oK8
+  - catTitle: SENEGAL TV
+    videos:
+      - url: https://www.youtube.com/embed/O3VMFfa894I
+      - url: https://www.youtube.com/embed/mdytY1CGfaA
+  - catTitle: BAHRAIN
+    videos:
+      - url: https://www.youtube.com/embed/T4xFCvtlEFU
 ---
