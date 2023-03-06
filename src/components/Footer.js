@@ -64,7 +64,7 @@ const Footer = class extends React.Component {
 
                                     <div className="wa__popup_txt">
                                         <div className="wa__member_name">Sayed Habib</div>
-                                        <div className="wa__member_duty">GM-Buying &amp; Business Development</div>
+                                        <div className="wa__member_duty">Director - Business Development, Franchise and E - Commerce</div>
                                     </div>
                                 </a>
                             </div>
