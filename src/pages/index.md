@@ -1,25 +1,9 @@
 ---
 slider:
-  - image: /img/mauritius.jpg
-    link: https://www.khaleejtimes.com/business/danube-home-set-to-open-its-first-showroom-in-mauritius
-  - image: /img/ceo1.jpg
-    link: https://www.linkedin.com/feed/update/urn:li:share:6914892412100194304?utm_source=linkedin_share&utm_medium=member_desktop_share&utm_content=post
-  - image: /img/screen-shot-2022-06-22-at-2.39.57-pm.png
-    link: https://www.linkedin.com/posts/danube-home-franchise_dubai-nigeria-abuja-activity-6944993164860481536-x4-I?utm_source=linkedin_share&utm_medium=member_desktop_web
-  - image: /img/world-book-of-record.png
-    link: https://www.instagram.com/p/CQgQp9hH1Y5
-  - image: /img/screen-shot-2021-06-06-at-9.20.14-am.png
-    link: https://thebusinessberg.com/danube-home-composing-the-ultimate-home-experience/
-  - image: /img/arabian-business-copy.jpg
-    link: https://www.linkedin.com/company/danube-home-franchise/posts/?feedView=all
-  - image: /img/retailme-banner.jpg
-    link: https://vimeo.com/479267725/5ebd76cca0
-  - image: /img/rwanda-now-open.jpg
-    link: /about
-  - image: /img/awards.jpg
-    link: https://franchise.danubehome.com/
-  - image: /img/franchise_banner-03.png
-    link: /about
+  - image: /img/cio-look-min.jpg
+    link: https://ciolook.com/sayed-habib-prioritizing-superlative-customer-experience/
+  - image: /img/burj-ceo-award-min.jpg
+    link: https://www.gccbusinessnews.com/burj-ceo-awards-2022-he-reem-ebrahim-al-hashimi-wins-best-woman-in-business/
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
