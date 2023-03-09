@@ -98,7 +98,7 @@ AwardSection:
     - img: /img/award6.png
 presence:
   title: "Presence across the Globe:"
-  mediaImage: /img/Presence-min.png
+  mediaImage: /img/our-presence.jpg
 portfolio:
   heading: Our Portfolio
   caption: The portfolio has a long list of products to offer to every aspect of a

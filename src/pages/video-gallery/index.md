@@ -17,11 +17,6 @@ vCategory:
       - url: https://www.youtube.com/embed/obE6w3WBLvk
       - url: https://www.youtube.com/embed/ifpYeB6cP2w
     catTitle: UGANDA
-  - videos:
-      - url: https://www.youtube.com/embed/3lFDBuhEwY0
-      - url: https://www.youtube.com/embed/Gwv49sErWMg
-      - url: https://www.youtube.com/embed/aa61XBdwY-Q
-    catTitle: TANZANIA
   - catTitle: BANGLADESH
     videos:
       - url: https://www.youtube.com/embed/dAOUCSLhOKE
