@@ -35,7 +35,6 @@ videoSection:
   actionLink: video-gallery
   videos:
     - url: https://www.youtube.com/embed/ar0j8lR6gNw
-    - url: https://www.youtube.com/embed/2A3SqEtLRbo
     - url: https://www.youtube.com/embed/XzQXgwu6qLo
     - url: https://www.youtube.com/embed/7izU1irPy6I
 intro:
