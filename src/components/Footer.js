@@ -83,6 +83,21 @@ const Footer = class extends React.Component {
                                     </div>
                                 </a>
                             </div>
+                            <div className="wa__popup_content_item ">
+                                <a target="_blank"
+                                   href="https://web.whatsapp.com/send?phone=971554717035&amp;text=Hi, I visited Danube Franchise Website and have some queries."
+                                   className="wa__stt wa__stt_online">
+                                    <div className="wa__popup_avatar">
+                                        <div className="wa__cs_img_wrap"
+                                             style={{background: `url(${zero}) center center no-repeat`, backgroundSize: `cover`}}></div>
+                                    </div>
+
+                                    <div className="wa__popup_txt">
+                                        <div className="wa__member_name">Mahfooz Abdul Gafoor</div>
+                                        <div className="wa__member_duty">Franchise Consultant</div>
+                                    </div>
+                                </a>
+                            </div>
                             {/*<div className="wa__popup_content_item ">
                                 <a target="_blank"
                                    href="https://web.whatsapp.com/send?phone=971554717055&amp;text=Hi, I visited Danube Franchise Website and have some queries."
