@@ -4,17 +4,17 @@ slider:
     link: https://ciolook.com/sayed-habib-prioritizing-superlative-customer-experience/
   - image: /img/burj-ceo-award-min.jpg
     link: https://www.gccbusinessnews.com/burj-ceo-awards-2022-he-reem-ebrahim-al-hashimi-wins-best-woman-in-business/
-  - image: /img/nepal-opening-min.jpg
+  - image: /img/somaliland-min.jpg
     link: "#"
   - image: /img/senegal-now-open-2-min.jpg
     link: "#"
-  - image: /img/somaliland-min.jpg
+  - image: /img/ghana-now-open-min.jpg
     link: "#"
   - image: /img/tanzania-min.jpg
     link: "#"
   - image: /img/bangladesh-now-open-2-min.jpg
     link: "#"
-  - image: /img/ghana-now-open-min.jpg
+  - image: /img/nepal-opening-min.jpg
     link: "#"
   - image: /img/valentine-decoration-min.jpg
     link: "#"
