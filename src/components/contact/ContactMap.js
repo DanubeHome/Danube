@@ -29,7 +29,7 @@ const ContactMap = class extends React.Component {
                         <div className="col text-center">
                             <div>
                                 <div className="h4 text-theme mt-5 font-weight-light">Contact Us</div>
-                                <p style={{fontSize: '14px', lineHeight: 1.6}}>Mr. Sayed Habib GM – Business Development,<br />
+                                <p style={{fontSize: '14px', lineHeight: 1.6}}>Mr. Sayed Habib, Director - Business Development, Franchise and E - Commerce,<br />
                                     P.O Box 18022, Jebel Ali, Dubai, U.A.E<br />
                                     Tel :+971 4 808 5563<br />
                                     Fax:+971 4 881 6409<br />
